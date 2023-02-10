@@ -1,0 +1,44 @@
+.cotainer{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 20px;
+padding: 10px;
+background-color: rgb(247, 240, 243);
+}
+.right{
+    flex: 1;
+
+    
+}
+.left{
+    flex: 1;
+}
+.left ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    justify-content: space-between;
+    list-style: none;
+    
+   
+}
+.left a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+    color:blue;
+   
+    border-radius: 10px;
+}
+.mid{
+    flex: 1;
+    color: blueviolet;
+}
+@media screen and (max-width:600px) {
+    .cotainer{position: relative;}
+    
+}

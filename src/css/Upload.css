@@ -1,0 +1,35 @@
+.frommain{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+    min-height: 50vh;
+    background-color: aqua;
+    border-radius: 20px;
+}
+#file{
+    margin-left: 80px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 40px;
+    
+   
+}
+.frommain input{
+   margin-top: 10px;
+   font-size: 30px;
+   border-radius: 20px;
+}
+.frommain button{
+    font-size: 30px;
+    background-color: brown;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
